@@ -1,0 +1,19 @@
+
+button{
+    background-color: beige;
+    color: black;
+}
+#colour{
+    text-align: center;
+    color:wheat;
+    /* background-color:rgb(220, 206, 234); */
+    font-weight:900;
+    /* font-size:bold; */
+    font-family:cursive;
+    line-height:40px;
+    background-image:-webkit-linear-gradient(#300,#ff203f);
+}
+#font{
+    font-size: large;
+    
+}

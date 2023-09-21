@@ -2,44 +2,59 @@
 <!-- data btw opening tags and closing tags called element -->
 <html lang="en">
 <head>
-    <!-- <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> -->
-</head>     
-<h1>
-    <h1 style="background-color:aqua;">zoro.to</h1>
-    <h1><span style = "background-color:navy;">zoro.to</span></h1>
+    <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zoro.to</title> 
+    <link rel="stylesheet" href="style.css">
+    <style>
+        button{
+            color:rebeccapurple;
+            background-color:wheat;
+        }
+    </style>
+</head>  
+<body>   
+<div id = "myyy" style = "background-color: rgb(171, 185, 199);">
+    <h1 >zoro.to</h1>
+    <!-- <h1> <span style = "background-color:rgb(206, 199, 188);">zoro.to</span></h1> -->
     <h2>best anime streaming site</h2>
     <h3>
         guidlines
     </h3>
+    <br>
+
+    <button>Click me !</button>
+    <button>Press here !</button>
+    <button style ="color:brown;
+    background-color:aliceblue;" >Use me !</button>
     <!-- ordered list -->
     <ol><li>no discussion would be tolerated over religion ,cast and hate speech</li>
     <li>copying content from zoro.to will be given a direct copyright</li>
     <li>your feedback will help us to improve our site</li></ol>
-    <h3>new animes of this week</h3>
-    <h4>brawl</h4>
+    <h3 class = "myclass">new animes of this week</h3>
+    <h4 class = "myclass">brawl</h4>
     <a href = "https://www.brawl_anime.com">want to know more about brawl ? ?</a>
     <img src = "C:\Users\Administrator\OneDrive\Pictures\Untitled design.png" alt = "brawl">
-    <h4>fangs</h4>
+    <h5 class = "myclass">fangs</h5>
     <!-- anchor tag <a href=""></a> -->
    <a href = "https://www.fangs_anime.com">want to know more about fangs ?</a>
    <img src = "C:\Users\Administrator\OneDrive\Pictures\Untitled design.png" alt = "fangs">
     <h4>darkthrill</h4>
     <!-- src and alt are the attributes of image -->
-    <a href = "https://www.darkthrill_anime">want to know more about darkthril</a>
+    <a href = "https://www.darkthrill_anime"> want to know more about darkthril</a>
     <img src = "C:\Users\Administrator\OneDrive\Pictures\Untitled design.png" alt = "darkthrill">
-    <table>
-        <tr>
-                <td> srno.</td>
-                <td> monday </td>
-                <td> tuesday </td>
-                <td> wenesday </td>
-                <td> thursday </td>
-                <td> friday </td>
-                <td> saturday </td>
-                <td> sunday </td>                
-        </tr>
+    <table border = "1">
+        <thead>
+                <th> srno.</th>
+                <th> monday </th>
+                <th> tuesday </th>
+                <th> wenesday </th>
+                <th> thursday </th>
+                <th> friday </th>
+                <th> saturday </th>
+                <th> sunday </th>                
+        </thead>
+        <tbody>
         <tr>
                 <td>1</td>
                 <td>bleach</td>
@@ -60,6 +75,29 @@
                 <td>superman</td>
                 <td>sunbreath</td>                
         </tr>
+    </tbody>
+    </table>
+    
+    <table border = "1">
+        <tbody>
+            <tr>
+                <td>col 1</td>
+                <td>col 2</td>
+                <td>col 3</td>
+            </tr>
+            <tr>
+                <td rowspan = "2">row 1 cell 1</td>
+                <td>row 1 cell 2</td>
+                <td>row 1 cell 3</td>
+            </tr>
+            <tr>
+                <td>row 2 cell 2</td>
+                <td>row 2 cell 3</td>
+            </tr>
+            <tr>
+                <td colspan = "3">row 3 cell 1</td>
+            </tr>
+        </tbody>
     </table>
         <!-- bold <b></b> -->
         <!-- <strong>emphasing on this txt</strong> -->
@@ -93,5 +131,80 @@
     </P>
 </p>
 <a href="fggsfgfjk">hi this side saurabh</a>
-    </body>
+
+<!-- <ul>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+</ul>
+<nav>
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+</nav> -->
+<span>
+    <nav>
+        <ul>
+            <li><a href="q"></a></li>
+            <li><a href="a"></a></li>
+            <li><a href="ss"></a></li>
+            <li><a href="dd"></a></li>
+        </ul>
+    </nav>
+</span>
+<a href ="mailto:saurabhbisht076@gmail.com">email</a>
+<a href="tel:+91 8533019652">call us</a>
+<table border="1">
+    <tr>
+        <th rowspan = "3 ">day</th>
+        <th colspan = "4">seminar</th>
+    </tr>
+    <tr>
+        <th colspan = "2">schedule</th>
+        <th rowspan = "2">topic</th>
+    </tr>
+    <tr>
+      
+        <th>begin</th>
+        <th>end</th>
+    </tr> 
+    <tr>
+        <td>monday</td>
+        <td>8:00pm</td>
+        <td>5:00am</td>
+        <td colspan = "2" >crypto</td>
+    </tr>
+    <tr>
+        <td rowspan = "3">tuesday</td>
+        <td>11:00 am</td>
+        <td>2:00 pm</td>
+        <td rowspan = "2"  colspan = "2" >sst</td>
+    </tr>
+    <tr>
+        <td>8:00pm</td>
+        <td>11:00pm</td>
+    </tr>
+    <tr>
+        <td>2:00pm</td>
+        <td>5:00pm</td>
+        <td colspan = "2" >maths</td>
+    </tr>
+    <tr>
+        <td>wed</td>
+        <td>8:00 pm</td>
+        <td> 12:00 pm</td>
+        <td colspan = "2" >xsl</td>
+    </tr>
+</table>
+<br>
+
+</div>   
+</body>
 </html>

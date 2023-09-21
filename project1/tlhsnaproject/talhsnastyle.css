@@ -1,0 +1,79 @@
+.navbar{
+    margin:0;
+    padding:0;
+}
+#aa{
+    background-color: black;
+    height:60px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    margin-right:200px;
+}
+#set{
+    /* font-weight:400; */
+    font-size:25px;
+    color:orange;
+}
+button{
+   background-color:orange;
+}
+
+/* #div1{
+    background-color: blueviolet;
+    height:100px;
+    width:100px;
+    background-image: url("owner.jpg");
+    background-size: cover;
+    position:fixed;
+    top:0;
+    right:0;
+} */
+.container{
+    display:flex;
+    border:10px solid navajowhite;
+    height:400px;
+    /* flex-direction: row; */
+    /* flex-wrap:wrap-reverse; */
+    /* flex-wrap:wrap; */
+    /* flex-wrap:nowrap; */
+    /* width:100px; */
+    /* flex-flow is the shorthand for flex-direction and flex-wrap properties. */
+    /* flex-flow:row nowrap; */
+    justify-content:center;
+    /* align-items:center; */
+    /* gap:10px 20px; */
+    /* align-content: start; */
+}
+#div3{
+   background-color:rgba(0,5,20,0.5);
+    margin:10px;
+
+    height:100px;
+    width:100px;
+    border:1px solid black;
+}
+#div4{
+    background-color:rgba(0,55,200,0.5);
+ margin:10px;
+     height:200px;
+     width:100px;
+     border:1px solid black;
+ }
+ #div5{
+    background-color:rgba(0,255,00,0.5);
+     margin:10px;
+ 
+     height:100px;
+     width:70px;
+     border:1px solid black;
+ }
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    height:30px;
+    width:100vw;
+    bottom:0;
+}
